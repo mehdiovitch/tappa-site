@@ -1,0 +1,493 @@
+body {
+    background-color: black;
+
+}
+
+nav {}
+
+#Tappa {
+    color: white;
+    font-family: 'Lobster', sans-serif;
+    margin-left: 3%;
+    font-size: 35px;
+
+
+}
+
+#buttom {
+    background-color: transparent;
+    color: white;
+    border-radius: 180px;
+    width: 120px;
+    height: 40px;
+    border-color: white;
+    margin-left: 65%;
+    cursor: pointer;
+    transition: all 0.6s;
+
+
+}
+
+#buttom:hover {
+    background-color: white;
+    color: black;
+
+}
+
+
+.div1 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#menubar {
+    margin-right: 5%;
+
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+#connect {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 400%;
+    margin-top: 57px;
+    margin-bottom: 10px;
+}
+
+#connect2 {
+
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 400%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#p1 {
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 140%;
+}
+
+.twobutton {
+    background-color: white;
+    width: 9%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    width: 0px;
+    color: black;
+
+}
+
+#apple {
+    background-color: transparent;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 122px;
+    height: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+
+}
+
+#Googleplay {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#googleplaybutton {
+    height: 57px;
+    width: 166px;
+    margin-right: 10vh;
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#applebutton {
+    height: 57px;
+    width: 166px;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    border-radius: 120px;
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.div12 {
+    border-radius: 80px;
+    background-color: rgb(32, 31, 31);
+    height: 173px;
+    width: 219px;
+    border-radius: 26px;
+    margin-top: 3px;
+    margin-left: 131px;
+}
+
+#onoff {
+    margin-left: 149px;
+    margin-top: 13px;
+}
+
+#translation {
+    text-decoration: none;
+    color: rgb(221, 217, 217);
+    font-size: larger;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 65px;
+    left: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#usaflag {
+    position: relative;
+    left: 15px;
+    bottom: 50px;
+}
+
+#English {
+    color: rgb(138, 135, 135);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 53px;
+    bottom: 90px;
+    font-size: small;
+}
+
+#germanflag {
+    position: relative;
+    left: 124px;
+    bottom: 128px;
+
+
+}
+
+#German {
+    color: rgb(138, 135, 135);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 160px;
+    bottom: 167px;
+    font-size: small;
+
+
+}
+
+#spanishflag {
+    position: relative;
+    left: 16px;
+    bottom: 154px;
+
+}
+
+#Spanish {
+    color: rgb(138, 135, 135);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 53px;
+    bottom: 193px;
+    font-size: small;
+
+}
+
+#italianflag {
+    position: relative;
+    left: 124px;
+    bottom: 230px;
+}
+
+#Italian {
+    color: rgb(138, 135, 135);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 160px;
+    bottom: 270px;
+    font-size: small;
+
+
+}
+
+#iphone {
+    position: relative;
+    bottom: 167px;
+    right: 3px;
+    width: 1534px;
+}
+
+#jacob {
+    height: 53px;
+    width: 278px;
+    background-color: #b8b8ff;
+    border-radius: 17px;
+    position: relative;
+    bottom: 968px;
+    left: 846px;
+}
+
+#JacobSimmons {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    left: 64px;
+    top: 16px;
+}
+
+#jacobimg {
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    position: relative;
+    left: 7px;
+    bottom: 35px;
+}
+
+#rondnoir {
+    position: relative;
+    left: 184px;
+    bottom: 41px;
+
+}
+
+#seven {
+    color: white;
+    position: relative;
+    left: 244px;
+    bottom: 93px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#Alexdiv {
+    height: 114px;
+    width: 273px;
+    background-color: #736ced;
+    border-radius: 17px;
+    position: relative;
+    bottom: 900px;
+    left: 1077px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+
+}
+
+#Aleximg {
+    border-radius: 50px;
+    position: relative;
+    bottom: 26px;
+    left: 32px;
+
+}
+
+#Alex {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    position: relative;
+    left: 42px;
+    bottom: 47px;
+
+}
+
+#Hello {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    position: relative;
+    left: 8px;
+    bottom: 10px;
+
+
+}
+
+#speak {
+    position: relative;
+    left: 907px;
+    bottom: 950px;
+    width: 25%;
+}
+
+#soundwave {
+    position: relative;
+    left: 0px;
+    bottom: 1432px;
+    width: 445px;
+
+
+}
+
+#Marydiv {
+    background-color: #2667ff;
+    height: 85px;
+    width: 318px;
+    border-radius: 20px;
+    position: relative;
+    left: 50px;
+    bottom: 1601px;
+
+}
+
+#Mary {
+    position: relative;
+    right: 118px;
+    bottom: 138px;
+    height: 357px;
+}
+
+#Marytext {
+    color: white;
+    position: relative;
+    left: 85px;
+    bottom: 363px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#discuss {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    position: relative;
+    bottom: 371px;
+    left: 85px;
+
+}
+
+#newmessage {
+    background-color: #f39de2;
+    height: 30px;
+    width: 149px;
+    position: relative;
+    left: 225px;
+    bottom: 1530px;
+    border-radius: 60px;
+}
+
+#whiteround {
+    position: relative;
+    bottom: 56px;
+    right: 44px;
+}
+
+#newmessagetext {
+    color: black;
+    position: relative;
+    bottom: 163px;
+    left: 37px;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: lighter;
+
+}
+
+#sendtext {
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    position: relative;
+    bottom: 1350px;
+    left: 68px;
+}
+
+#simpletext {
+    color: rgb(196, 196, 196);
+    position: relative;
+    left: 1rem;
+    bottom: 4.99px;
+
+}
+
+#simpletexttwo {
+    color: rgb(196, 196, 196);
+    position: relative;
+    left: 1rem;
+    bottom: 14px;
+
+}
+
+#textes {
+    position: relative;
+    bottom: 1334px;
+    left: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+#downloadbutton {
+    height: 40px;
+    width: 130px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 14px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+
+#downloadimg {
+    position: relative;
+    right: 15px;
+}
+
+#hommepc {
+    height: 782px;
+    width: 566px;
+    border-radius: 20px;
+    position: relative;
+    left: 503px;
+    bottom: 1299px;
+}
+
+#femme {
+    height: 679px;
+    width: 400px;
+    position: relative;
+    bottom: 1196px;
+    right: 507px;
+    border-radius: 20px;
+
+}
